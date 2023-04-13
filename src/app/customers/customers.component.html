@@ -1,1 +1,25 @@
-<p>customers works!</p>
+<label class="Logo"></label>
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="Customer">Customers</a></li>
+  <li><a href="#">Order</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Login</a></li>
+</ul>
+
+<div class="container">
+  <div class="content">
+    <div class="cart" *ngFor="let customer of customers">
+      <div class="cart-header">
+        <span>{{customer.name}}</span>
+      </div>
+     <div class="cart-body">
+      <img src="assets/images/boss.png" alt="example">
+       <div class="cart-text">
+        <p>{{customer.address}}</p>
+        <h4>{{customer.details}}</h4>
+        </div>
+       </div>
+     </div>
+  </div>
+</div>
