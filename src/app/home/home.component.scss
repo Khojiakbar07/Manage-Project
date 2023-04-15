@@ -1,0 +1,10 @@
+.scrollable {
+    overflow-y: auto;
+    height: 100%;
+  }
+  .background-image {
+    background-image: url('../../assets/images/boss.png');
+    background-size:contain;
+    height:400px;
+    width: 400px;
+  }
