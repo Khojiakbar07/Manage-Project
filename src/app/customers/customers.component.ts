@@ -9,7 +9,7 @@ import { customers } from '../customersData';
 export class CustomersComponent {
   customers = customers;
   currentPage = 1;
-  pageSize = 12;
+  pageSize = 10;
   totalPages = Math.ceil(this.customers.length / this.pageSize);
   pages: number[] = [];
 
