@@ -22,7 +22,7 @@
   }
 }
 .cart{
-  width: 340px;
+  width: 300px;
   margin: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -30,7 +30,7 @@
 .cart-header{
   display: flex;
   justify-content: space-between;
-  width: 324px;
+  width: 285px;
   padding: 8px;
   background-color:#007bff;
   color: #fff;
@@ -53,8 +53,8 @@
 .cart-body{
   display: flex;
   align-items: center;
-  width: 300px;
-  height: 160px;
+  width: 250px;
+  height: 140px;
 }
 
 .cart-body img {
